@@ -1,7 +1,7 @@
 # Heapsort-Testing
 An experiment to generalize heaps to complete k-ary trees in which each node is smaller than its parent. Experiments with finding a value of k which is optimal with respect to time used for heapsort.
 
-###Opportunities for expansion
+### Opportunities for expansion
 
 * The experiment uses a randomly generated list. Sorting is not always done on a completely randomized list. More preemptive arrays could be generated in order to simulate different possible situations.
 
