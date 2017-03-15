@@ -19,6 +19,7 @@ template <int K>
 class Heap{
 
 private:
+
     std::vector<int> myHeap;
 
     //Bubbles down element at ith position into the heap
@@ -57,7 +58,7 @@ public:
     //Destructor
     ~Heap(){}
 
-    //Prints out the sorted contents of
+    //Calls heapsort on the current heap, returning a sorted vector
     std::vector<int> heapSort(){
         std::vector<int> sorted;
         std::vector<int> unsorted(myHeap);
@@ -70,6 +71,7 @@ public:
         return sorted;
     }
 
+    //Prints out the contents of the heap, with each layer in a new line
     void printHeap(){
         int numInLayer = 1;
         int maxInLayer = 1;
@@ -83,7 +85,6 @@ public:
         }
         std::cout<< "\n";
     }
-
 
 };
 
